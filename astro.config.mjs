@@ -51,14 +51,18 @@ export default defineConfig({
                     ],
                 },
                 {
-                    label: 'Dil Bilgisi',
-                    autogenerate: { directory: 'grammar' },
-                },
-                {
-                    label: "Yazılı Yapıtlar",
-                    autogenerate: { directory: 'yazılı' },
-
+                    label: 'Konular',
+                    auto: { directory: 'konular' },
                 }
+                // {
+                //     label: 'Dil Bilgisi',
+                //     autogenerate: { directory: 'grammar' },
+                // },
+                // {
+                //     label: "Yazılı Yapıtlar",
+                //     autogenerate: { directory: 'yazılı' },
+
+                // }
 
             ],
             components: {
