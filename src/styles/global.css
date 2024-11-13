@@ -1,0 +1,19 @@
+:root {
+    --sl-color-accent-high: hsl(258, 79%, 72%);
+    --sl-color-accent: hsl(258, 61%, 66%);
+    --sl-color-accent-low: hsl(258, 55%, 57%);
+    --sl-hero-color: hsla(258, 61%, 66%, 30%);
+}
+
+:root[data-theme='light'] {
+    --sl-color-accent-high: hsl(257, 49%, 42%);
+    --sl-color-accent: hsl(257, 54%, 59%);
+    --sl-color-accent-low: hsl(257, 52%, 75%);
+    --sl-hero-color: hsla(257, 70%, 70%, 25%);
+}
+
+
+.hero {
+    padding: 0;
+}
+

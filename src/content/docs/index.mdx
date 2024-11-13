@@ -1,0 +1,41 @@
+---
+title: Uluğ Sözlük
+description: Starlight theme inspired by the style of Obsidian Publish websites.
+head:
+  - tag: title
+    content: Uluğ Sözlük
+editUrl: false
+lastUpdated: false
+hero:
+    tagline: Ortak Türk Dili için Dil Bilgisi ve Sözlük
+    image:
+        alt: A glittering purple star being obscured by a moon
+        dark: ../../assets/hero.png
+        light: ../../assets/hero.png
+    actions:
+        - text: Getting Started
+          link: /ulugsozluk/getting-started/
+          icon: rocket
+        - text: Kaynakça
+          link: /ulugsozluk/kaynakça/
+          icon: external
+          variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components'
+
+## Features
+
+<CardGrid stagger>
+    <Card title="Basit" icon="bars">
+        Ortak Türk Dili, öğrenmesi ve öğretmesi kolay bir dil olarak tasarlanılır.
+    </Card>
+
+    <Card title="Site Haritası" icon="seti:graphql">
+        Sözcüklerin birbirleri ile bağlantılarını gösteren bir site haritası ile desteklenir.
+    </Card>
+
+    <Card title="Birlik" icon="seti:favicon">
+        Türk Milletlerinin dil birliği için, bütün Türk dillerine ait öğeler barındırır.
+    </Card>
+</CardGrid>
