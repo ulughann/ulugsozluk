@@ -52,7 +52,7 @@ export default defineConfig({
                 },
                 {
                     label: 'Konular',
-                    auto: { directory: 'konular' },
+                    autogenerate: { directory: 'konular' }
                 }
                 // {
                 //     label: 'Dil Bilgisi',
