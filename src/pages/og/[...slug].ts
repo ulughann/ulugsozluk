@@ -41,10 +41,6 @@ export const { getStaticPaths, GET } = OGImageRoute({
 				'https://cdn.jsdelivr.net/fontsource/fonts/ibm-plex-sans@latest/latin-700-normal.woff2',
 			],
 			padding: 90,
-			logo: {
-				path: '../assets/icon.png',
-				size: [500]
-			},
 		};
 	},
 });
